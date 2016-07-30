@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		573A4AA01D4D1C9400085C5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 573A4A9F1D4D1C9400085C5E /* main.m */; };
+		573A4AA31D4D1C9400085C5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 573A4AA21D4D1C9400085C5E /* AppDelegate.m */; };
+		573A4AA61D4D1C9400085C5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573A4AA51D4D1C9400085C5E /* ViewController.m */; };
+		573A4AA91D4D1C9400085C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573A4AA71D4D1C9400085C5E /* Main.storyboard */; };
+		573A4AAB1D4D1C9400085C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573A4AAA1D4D1C9400085C5E /* Assets.xcassets */; };
+		573A4AAE1D4D1C9400085C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573A4AAC1D4D1C9400085C5E /* LaunchScreen.storyboard */; };
+		573A4AB91D4D1C9400085C5E /* SWTimePickerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 573A4AB81D4D1C9400085C5E /* SWTimePickerExampleTests.m */; };
+		573A4AC41D4D1C9400085C5E /* SWTimePickerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 573A4AC31D4D1C9400085C5E /* SWTimePickerExampleUITests.m */; };
+		573A4AD31D4D1DA000085C5E /* SWDatePickerDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 573A4AD21D4D1DA000085C5E /* SWDatePickerDialog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		573A4AB51D4D1C9400085C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573A4A931D4D1C9300085C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 573A4A9A1D4D1C9300085C5E;
+			remoteInfo = SWTimePickerExample;
+		};
+		573A4AC01D4D1C9400085C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573A4A931D4D1C9300085C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 573A4A9A1D4D1C9300085C5E;
+			remoteInfo = SWTimePickerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		573A4A9B1D4D1C9400085C5E /* SWTimePickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWTimePickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		573A4A9F1D4D1C9400085C5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		573A4AA11D4D1C9400085C5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		573A4AA21D4D1C9400085C5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		573A4AA41D4D1C9400085C5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		573A4AA51D4D1C9400085C5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		573A4AA81D4D1C9400085C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		573A4AAA1D4D1C9400085C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		573A4AAD1D4D1C9400085C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		573A4AAF1D4D1C9400085C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573A4AB41D4D1C9400085C5E /* SWTimePickerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWTimePickerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		573A4AB81D4D1C9400085C5E /* SWTimePickerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWTimePickerExampleTests.m; sourceTree = "<group>"; };
+		573A4ABA1D4D1C9400085C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573A4ABF1D4D1C9400085C5E /* SWTimePickerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWTimePickerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		573A4AC31D4D1C9400085C5E /* SWTimePickerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWTimePickerExampleUITests.m; sourceTree = "<group>"; };
+		573A4AC51D4D1C9400085C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573A4AD11D4D1DA000085C5E /* SWDatePickerDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDatePickerDialog.h; sourceTree = "<group>"; };
+		573A4AD21D4D1DA000085C5E /* SWDatePickerDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDatePickerDialog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573A4A981D4D1C9300085C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573A4AB11D4D1C9400085C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573A4ABC1D4D1C9400085C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		573A4A921D4D1C9300085C5E = {
+			isa = PBXGroup;
+			children = (
+				573A4A9D1D4D1C9400085C5E /* SWTimePickerExample */,
+				573A4AB71D4D1C9400085C5E /* SWTimePickerExampleTests */,
+				573A4AC21D4D1C9400085C5E /* SWTimePickerExampleUITests */,
+				573A4A9C1D4D1C9400085C5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		573A4A9C1D4D1C9400085C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573A4A9B1D4D1C9400085C5E /* SWTimePickerExample.app */,
+				573A4AB41D4D1C9400085C5E /* SWTimePickerExampleTests.xctest */,
+				573A4ABF1D4D1C9400085C5E /* SWTimePickerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		573A4A9D1D4D1C9400085C5E /* SWTimePickerExample */ = {
+			isa = PBXGroup;
+			children = (
+				573A4AA11D4D1C9400085C5E /* AppDelegate.h */,
+				573A4AA21D4D1C9400085C5E /* AppDelegate.m */,
+				573A4AA41D4D1C9400085C5E /* ViewController.h */,
+				573A4AA51D4D1C9400085C5E /* ViewController.m */,
+				573A4AD11D4D1DA000085C5E /* SWDatePickerDialog.h */,
+				573A4AD21D4D1DA000085C5E /* SWDatePickerDialog.m */,
+				573A4AA71D4D1C9400085C5E /* Main.storyboard */,
+				573A4AAA1D4D1C9400085C5E /* Assets.xcassets */,
+				573A4AAC1D4D1C9400085C5E /* LaunchScreen.storyboard */,
+				573A4AAF1D4D1C9400085C5E /* Info.plist */,
+				573A4A9E1D4D1C9400085C5E /* Supporting Files */,
+			);
+			path = SWTimePickerExample;
+			sourceTree = "<group>";
+		};
+		573A4A9E1D4D1C9400085C5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				573A4A9F1D4D1C9400085C5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		573A4AB71D4D1C9400085C5E /* SWTimePickerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				573A4AB81D4D1C9400085C5E /* SWTimePickerExampleTests.m */,
+				573A4ABA1D4D1C9400085C5E /* Info.plist */,
+			);
+			path = SWTimePickerExampleTests;
+			sourceTree = "<group>";
+		};
+		573A4AC21D4D1C9400085C5E /* SWTimePickerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				573A4AC31D4D1C9400085C5E /* SWTimePickerExampleUITests.m */,
+				573A4AC51D4D1C9400085C5E /* Info.plist */,
+			);
+			path = SWTimePickerExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573A4A9A1D4D1C9300085C5E /* SWTimePickerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573A4AC81D4D1C9400085C5E /* Build configuration list for PBXNativeTarget "SWTimePickerExample" */;
+			buildPhases = (
+				573A4A971D4D1C9300085C5E /* Sources */,
+				573A4A981D4D1C9300085C5E /* Frameworks */,
+				573A4A991D4D1C9300085C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWTimePickerExample;
+			productName = SWTimePickerExample;
+			productReference = 573A4A9B1D4D1C9400085C5E /* SWTimePickerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		573A4AB31D4D1C9400085C5E /* SWTimePickerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573A4ACB1D4D1C9400085C5E /* Build configuration list for PBXNativeTarget "SWTimePickerExampleTests" */;
+			buildPhases = (
+				573A4AB01D4D1C9400085C5E /* Sources */,
+				573A4AB11D4D1C9400085C5E /* Frameworks */,
+				573A4AB21D4D1C9400085C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				573A4AB61D4D1C9400085C5E /* PBXTargetDependency */,
+			);
+			name = SWTimePickerExampleTests;
+			productName = SWTimePickerExampleTests;
+			productReference = 573A4AB41D4D1C9400085C5E /* SWTimePickerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		573A4ABE1D4D1C9400085C5E /* SWTimePickerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573A4ACE1D4D1C9400085C5E /* Build configuration list for PBXNativeTarget "SWTimePickerExampleUITests" */;
+			buildPhases = (
+				573A4ABB1D4D1C9400085C5E /* Sources */,
+				573A4ABC1D4D1C9400085C5E /* Frameworks */,
+				573A4ABD1D4D1C9400085C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				573A4AC11D4D1C9400085C5E /* PBXTargetDependency */,
+			);
+			name = SWTimePickerExampleUITests;
+			productName = SWTimePickerExampleUITests;
+			productReference = 573A4ABF1D4D1C9400085C5E /* SWTimePickerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573A4A931D4D1C9300085C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Marillion101;
+				TargetAttributes = {
+					573A4A9A1D4D1C9300085C5E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SH454Q9UHP;
+					};
+					573A4AB31D4D1C9400085C5E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SH454Q9UHP;
+						TestTargetID = 573A4A9A1D4D1C9300085C5E;
+					};
+					573A4ABE1D4D1C9400085C5E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SH454Q9UHP;
+						TestTargetID = 573A4A9A1D4D1C9300085C5E;
+					};
+				};
+			};
+			buildConfigurationList = 573A4A961D4D1C9300085C5E /* Build configuration list for PBXProject "SWTimePickerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 573A4A921D4D1C9300085C5E;
+			productRefGroup = 573A4A9C1D4D1C9400085C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573A4A9A1D4D1C9300085C5E /* SWTimePickerExample */,
+				573A4AB31D4D1C9400085C5E /* SWTimePickerExampleTests */,
+				573A4ABE1D4D1C9400085C5E /* SWTimePickerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573A4A991D4D1C9300085C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573A4AAE1D4D1C9400085C5E /* LaunchScreen.storyboard in Resources */,
+				573A4AAB1D4D1C9400085C5E /* Assets.xcassets in Resources */,
+				573A4AA91D4D1C9400085C5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573A4AB21D4D1C9400085C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573A4ABD1D4D1C9400085C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573A4A971D4D1C9300085C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573A4AA61D4D1C9400085C5E /* ViewController.m in Sources */,
+				573A4AD31D4D1DA000085C5E /* SWDatePickerDialog.m in Sources */,
+				573A4AA31D4D1C9400085C5E /* AppDelegate.m in Sources */,
+				573A4AA01D4D1C9400085C5E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573A4AB01D4D1C9400085C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573A4AB91D4D1C9400085C5E /* SWTimePickerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573A4ABB1D4D1C9400085C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573A4AC41D4D1C9400085C5E /* SWTimePickerExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		573A4AB61D4D1C9400085C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 573A4A9A1D4D1C9300085C5E /* SWTimePickerExample */;
+			targetProxy = 573A4AB51D4D1C9400085C5E /* PBXContainerItemProxy */;
+		};
+		573A4AC11D4D1C9400085C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 573A4A9A1D4D1C9300085C5E /* SWTimePickerExample */;
+			targetProxy = 573A4AC01D4D1C9400085C5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		573A4AA71D4D1C9400085C5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573A4AA81D4D1C9400085C5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		573A4AAC1D4D1C9400085C5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573A4AAD1D4D1C9400085C5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		573A4AC61D4D1C9400085C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		573A4AC71D4D1C9400085C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		573A4AC91D4D1C9400085C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SWTimePickerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marillion101.SWTimePickerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		573A4ACA1D4D1C9400085C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SWTimePickerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marillion101.SWTimePickerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		573A4ACC1D4D1C9400085C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SWTimePickerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marillion101.SWTimePickerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWTimePickerExample.app/SWTimePickerExample";
+			};
+			name = Debug;
+		};
+		573A4ACD1D4D1C9400085C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SWTimePickerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marillion101.SWTimePickerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWTimePickerExample.app/SWTimePickerExample";
+			};
+			name = Release;
+		};
+		573A4ACF1D4D1C9400085C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SWTimePickerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marillion101.SWTimePickerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SWTimePickerExample;
+			};
+			name = Debug;
+		};
+		573A4AD01D4D1C9400085C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SWTimePickerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marillion101.SWTimePickerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SWTimePickerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573A4A961D4D1C9300085C5E /* Build configuration list for PBXProject "SWTimePickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573A4AC61D4D1C9400085C5E /* Debug */,
+				573A4AC71D4D1C9400085C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573A4AC81D4D1C9400085C5E /* Build configuration list for PBXNativeTarget "SWTimePickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573A4AC91D4D1C9400085C5E /* Debug */,
+				573A4ACA1D4D1C9400085C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		573A4ACB1D4D1C9400085C5E /* Build configuration list for PBXNativeTarget "SWTimePickerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573A4ACC1D4D1C9400085C5E /* Debug */,
+				573A4ACD1D4D1C9400085C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		573A4ACE1D4D1C9400085C5E /* Build configuration list for PBXNativeTarget "SWTimePickerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573A4ACF1D4D1C9400085C5E /* Debug */,
+				573A4AD01D4D1C9400085C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573A4A931D4D1C9300085C5E /* Project object */;
+}
